@@ -219,7 +219,7 @@ export default function Layout({ children, currentPageName }) {
             <div className="flex gap-6 text-gray-500 text-sm">
               <a href="#" className="hover:text-rose-400 transition-colors">Mentions légales</a>
               <Link
-                to={createPageUrl('PolitiqueConfidentialite')}
+                to="/macaron/politique-confidentialite"
                 className="hover:text-rose-400 transition-colors"
               >
                 Politique de confidentialité

@@ -12,6 +12,10 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/macaron" replace />} />
+      <Route
+        path="/politique-confidentialite"
+        element={<Navigate to="/macaron/politique-confidentialite" replace />}
+      />
       <Route path="/macaron" element={<MacaronHome />} />
       <Route path="/macaron/menu" element={<MacaronMenu />} />
       <Route path="/macaron/about" element={<MacaronAbout />} />
