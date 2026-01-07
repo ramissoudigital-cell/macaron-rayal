@@ -21,6 +21,7 @@ export const createPageUrl = (pageName) => {
     Reservation: "/macaron/reservation",
     Contact: "/macaron/contact",
     Payment: "/macaron/payment",
+    PolitiqueConfidentialite: "/macaron/politique-confidentialite",
   };
 
   const pathname = typeof window !== 'undefined' ? window.location?.pathname : '';
