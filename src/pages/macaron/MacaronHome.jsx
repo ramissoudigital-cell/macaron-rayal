@@ -341,7 +341,7 @@ export default function MacaronHome() {
               >
                 <MapPin className="w-10 h-10 mb-4" />
                 <h3 className="text-xl font-medium mb-2">Adresse</h3>
-                <p className="text-rose-100">12 Rue de la Paix, 75002 Paris</p>
+                <p className="text-rose-100">Azito Palace</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
