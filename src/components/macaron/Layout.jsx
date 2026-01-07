@@ -214,7 +214,7 @@ export default function Layout({ children, currentPageName }) {
           {/* Bottom */}
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm">
-              © 2024 Macaron Royal. Tous droits réservés.
+              © 2026 Macaron Royal. Tous droits réservés.
             </p>
             <div className="flex gap-6 text-gray-500 text-sm">
               <a href="#" className="hover:text-rose-400 transition-colors">Mentions légales</a>
